@@ -127,3 +127,53 @@ paragraphTwoDiv.textContent = "Dewayne Wade"
 paragraphThreeDiv.textContent = "Kevin Love"
 paragraphFourDiv.textContent = "James Harden"
 paragraphFiveDiv.textContent = "Steph Curry"
+
+const containerSixDiv = document.createElement("div")
+containerSixDiv.classList.add("container-six")
+console.log(containerSixDiv)
+
+const sectionSixH2 = document.createElement("h2")
+sectionSixH2.setAttribute("id", "section-six")
+console.log(sectionSixH2)
+
+sectionSixH2.textContent = "Rockets";
+
+const paragraphSixP = document.createElement("p")
+paragraphSixP.classList.add("paragraph-six")
+paragraphSixP.textContent = "Russell Westbrook"
+console.log(paragraphSixP)
+
+const body = document.querySelector('body')
+
+body.appendChild(containerSixDiv)
+containerSixDiv.appendChild(sectionSixH2)
+containerSixDiv.appendChild(paragraphSixP)
+
+// create another container
+const containerSevenDiv = document.createElement("div")
+// add class
+containerSevenDiv.classList.add("container-Seven")
+console.log(containerSevenDiv)
+// create another section
+const sectionSevenH2 = document.createElement("h2")
+// add an id
+sectionSevenH2.setAttribute("id", "section-Seven")
+// add textContent
+sectionSevenH2.textContent = "Dolphins";
+console.log(sectionSevenH2)
+// create another paragraph
+const paragraphSevenP = document.createElement("p")
+// add a class
+paragraphSevenP.classList.add("paragraph-seven")
+// add textContent
+paragraphSevenP.textContent = "Miami"
+console.log(paragraphSevenP)
+
+// append the container to the body
+// append section to the container
+// append the paragraph to the container
+body.appendChild(containerSevenDiv)
+containerSevenDiv.appendChild(sectionSevenH2)
+containerSevenDiv.appendChild(paragraphSevenP)
+
+
