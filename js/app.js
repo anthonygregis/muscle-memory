@@ -93,3 +93,37 @@ const funcMod = (numOne, numTwo) => {
     return moddedNums
 }
 console.log(funcMod(3, 2))
+
+const sectionOneDiv = document.getElementById("section-one")
+//console.log(sectionOneDiv)
+const sectionTwoDiv = document.getElementById("section-two")
+//console.log(sectionTwoDiv)
+const sectionThreeDiv = document.querySelector("#section-three")
+//console.log(sectionThreeDiv)
+const sectionFourDiv = document.querySelector("#section-four")
+//console.log(sectionFourDiv)
+const sectionFiveDiv = document.querySelector("#section-five")
+//console.log(sectionFiveDiv)
+
+sectionOneDiv.textContent = "Lakers";
+sectionTwoDiv.textContent = "Heat";
+sectionThreeDiv.textContent = "Cavaliers";
+sectionFourDiv.textContent = "Rockets";
+sectionFiveDiv.textContent = "Warriors";
+
+const paragraphOneDiv = document.querySelector(".paragraph-one")
+//console.log(paragraphOneDiv)
+const paragraphTwoDiv = document.querySelector(".paragraph-two")
+//console.log(paragraphTwoDiv)
+const paragraphThreeDiv = document.querySelector(".paragraph-three")
+//console.log(paragraphThreeDiv)
+const paragraphFourDiv = document.querySelector(".paragraph-four")
+//console.log(paragraphFourDiv)
+const paragraphFiveDiv = document.querySelector(".paragraph-five")
+//console.log(paragraphFiveDiv)
+
+paragraphOneDiv.textContent = "Lebron James"
+paragraphTwoDiv.textContent = "Dewayne Wade"
+paragraphThreeDiv.textContent = "Kevin Love"
+paragraphFourDiv.textContent = "James Harden"
+paragraphFiveDiv.textContent = "Steph Curry"
